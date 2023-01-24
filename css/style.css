@@ -16,12 +16,12 @@ COMMON
 __________________ */
 
 .big {
-    width: 80%;
+    max-width: 80vh;
     min-width: 1200px;
 }
 
 .small {
-    width: 60%;
+    max-width: 60vh;
     min-width: 900px;
 }
 
@@ -197,11 +197,18 @@ main p {
     margin-bottom: 40px;
 }
 
-
-
 .last-box a {
     background-color: #255ee9;
     color: white;
+}
+
+.last-box p:last-of-type{
+    padding: 30px;
+    background-image: url(../img/stars.svg);
+    max-width: fit-content;
+    background-position-y: top;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 /*________________
