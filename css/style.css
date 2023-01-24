@@ -121,6 +121,22 @@ header p {
     line-height: 40px;
     margin: 15px auto;
 }
+
+header .button {
+    font-size: 25px;
+}
+
+header .direct-download {
+    background-color: white;
+    color: black;
+}
+
+header .browser-app {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
 /*________________
 
 MAIN
