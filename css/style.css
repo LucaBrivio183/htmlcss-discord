@@ -159,6 +159,7 @@ main>section:nth-child(even) {
 
 .large-col {
     width: 60%;
+    min-width: min-content;
 }
 
 .small-col {
@@ -176,6 +177,16 @@ main:last-child{
     justify-content: center;
 }
 
+main h2 {
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 25px;
+    line-height: 40px;
+}
 /*________________
 
 FOOTER
