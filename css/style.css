@@ -228,6 +228,7 @@ footer>section {
 
 .footer-row>* {
     flex-grow: 1;
+    flex-direction: column;
 }
 
 .footer-col:first-child {
@@ -245,4 +246,36 @@ footer>section {
 .footer-links>* {
     display: flex;
     padding: 10px;
+}
+
+footer h3 {
+    font-size: 30px;
+    line-height: 50px;
+    color: #6b83d4;
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+}
+
+
+.dropdown {
+    height: 20px;
+    margin: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin: 20px auto;
+}
+
+.dropdown img {
+    height: 100%;
+}
+
+.social ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    gap: 33px;
+    font-size: 20px;
 }
