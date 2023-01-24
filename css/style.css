@@ -9,81 +9,6 @@ __________________ */
     box-sizing: border-box;
 }
 
-/*________________
-
-DEBUG
-__________________ */
-
-.debug .header-top {
-    height: 96px;
-    background-color: #add8e6;
-    align-items: center;
-}
-
-.debug .header-bar {
-    height: 56px;
-    background-color: #daa520;
-}
-
-.debug .header-bar > * {
-    border: 2px dashed black;
-}
-
-.debug .header-bottom {
-    background-color: #00008b;
-    height: 600px;
-}
-
-.debug .header-box{
-    background-color:#ee82ee; 
-    height: 480px;
-    border: 2px dashed black;
-}
-
-.debug .row {
-    height: 600px;
-}
-
-.debug .large-col  {
-    background-color: #1e90ff;
-    border: 2px dashed black;
-}
-
-.debug .small-col  {
-    background-color: #ffc0cb;
-    border: 2px dashed black;
-}
-
-.debug  .main-last-box  {
-    background-color: #228b22;
-    border: 2px dashed black;
-    height: 1100px;
-}
-
-.debug .footer-row {
-    height: 700px;
-}
-
-.debug  .footer-col:first-child {
-    background-color: #f08080;
-    border: 2px dashed black;
-}
-
-.debug  .footer-col {
-    background-color: #20b2aa;
-    border: 2px dashed white;
-}
-
-.debug .footer-links {
-    background-color: #7fffd4;
-    height: 92px;  
-}
-
-.debug .footer-links>* {
-    background-color: #ffb6c1;
-    height: 52px; 
-    border: 2px dashed black; 
-}
 
 /*________________
 
@@ -98,6 +23,16 @@ __________________ */
     max-width: 900px;
 }
 
+.button {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*________________
 
 HEADER
@@ -105,6 +40,8 @@ __________________ */
 
 header{
     margin-bottom: 2px solid #add8e6;
+    background-color: #255ee9;
+    color: white;
 }
 
 .header-top {
@@ -115,34 +52,45 @@ header{
 
 .header-bar {
     display: flex;
+    align-items: center;
+    width: 80%;
     margin: 20px 0;
 }
 
-.header-bar > * {
-    display: flex;
-    align-items: center;
-    padding: 10px 0;
+.header-bar>* {
+    min-width: fit-content;
 }
 
 .navigator ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
 }
 
+header a {
+    color: white;
+}
+
+#login {
+    color: black;
+    background-color: white;
+}
+
 .navigator {
-    width: 60%;
+    flex-grow: 1;
     justify-content: center;
 }
 
 .logo {
     width: 20%;
+    margin-right: 40px;
 }
 
 .login {
     width: 20%;
-    justify-content: flex-end;
+    margin-left: 40px;
+    text-align: right;
 }
 
 .header-bottom {
@@ -237,8 +185,4 @@ footer>section {
 .footer-links>* {
     display: flex;
     padding: 10px;
-}
-
-.button {
-    justify-content: flex-end;
 }
