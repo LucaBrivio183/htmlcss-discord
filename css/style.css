@@ -42,6 +42,10 @@ header{
     margin-bottom: 2px solid #add8e6;
     background-color: #255ee9;
     color: white;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 .header-top {
@@ -99,8 +103,8 @@ header a {
     align-items: center;
 }
 
-.header-box {
-    width: 900px;
+.jumbo {
+    max-width: 900px;
 }
 
 /*________________
