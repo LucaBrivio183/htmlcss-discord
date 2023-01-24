@@ -28,6 +28,7 @@ __________________ */
     border-radius: 20px;
     text-align: center;
     margin: 5px;
+    font-size: 25px;
 }
 
 a {
@@ -166,9 +167,10 @@ main>section:nth-child(even) {
     width: 40%;
 }
 
-
-.main-last-box {
+.last-box {
     margin: 60px 0;
+    text-align: center;
+    max-width: min-content;
 }
 
 main:last-child{
@@ -186,7 +188,20 @@ main h2 {
 main p {
     font-size: 25px;
     line-height: 40px;
+    margin: 30px auto;
 }
+
+.last-box img  {
+    margin-bottom: 40px;
+}
+
+
+
+.last-box a {
+    background-color: #255ee9;
+    color: white;
+}
+
 /*________________
 
 FOOTER
