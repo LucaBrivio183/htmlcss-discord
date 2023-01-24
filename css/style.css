@@ -27,6 +27,7 @@ __________________ */
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    margin: 5px;
 }
 
 a {
@@ -41,11 +42,7 @@ __________________ */
 header{
     margin-bottom: 2px solid #add8e6;
     background-color: #255ee9;
-    color: white;
-    background-image: url(../img/jumbo.png);
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    color: white;  
 }
 
 .header-top {
@@ -101,12 +98,29 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .jumbo {
     max-width: 900px;
+    text-align: center;
+    margin: 100px auto;
 }
 
+header h1 {
+    font-size: 50px;
+    line-height: 70px;
+    margin: 30px auto;
+}
+
+header p {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 15px auto;
+}
 /*________________
 
 MAIN
