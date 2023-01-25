@@ -15,6 +15,10 @@ __________________ */
 COMMON
 __________________ */
 
+body {
+font-family: 'Roboto', sans-serif;
+}
+
 .big {
     max-width: 80vh;
     min-width: 1200px;
@@ -26,11 +30,11 @@ __________________ */
 }
 
 .button {
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 20px;
     text-align: center;
     margin: 5px;
-    font-size: 25px;
+    font-size: 25px;    
 }
 
 a {
